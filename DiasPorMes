@@ -1,0 +1,57 @@
+Algoritmo sin_titulo
+	// Leer el número de un mes y decir cuántos días tiene
+	
+	definir mes Como Entero
+	Escribir "Escriba un numero de mes"
+	leer num1
+	
+	si (Num1 = 1) Entonces
+		Escribir "Enero tiene 31 Dias"
+	FinSi
+	
+	si (Num1 = 2) Entonces
+		Escribir "Febrero tiene 28 Dias (o 29 si es año biciesto)"
+	FinSi
+	
+	si (Num1 = 3) Entonces
+		Escribir "Marzo tiene 31 Dias"
+	FinSi
+	
+	si (Num1 = 4) Entonces
+		Escribir "Abril tiene 30 Dias"
+	FinSi
+	si (Num1 = 5) Entonces
+		Escribir "Mayo tiene 31 Dias"
+	FinSi
+	
+	si (Num1 = 6) Entonces
+		Escribir "Junio tiene 30 Dias"
+	FinSi
+	
+	si (Num1 = 7) Entonces
+		Escribir "Julio tiene 31 Dias"
+	FinSi
+	
+	si (Num1 = 8) Entonces
+		Escribir "Agosto tiene 31 Dias"
+	FinSi
+	
+	si (Num1 = 9) Entonces
+		Escribir "Septiembre tiene 30 Dias"
+	FinSi
+	si (Num1 = 10) Entonces
+		Escribir "Octubre tiene 31 Dias"
+	FinSi
+	
+	si (Num1 = 11) Entonces
+		Escribir "Noviembre tiene 30 Dias"
+	FinSi
+	
+	si (Num1 = 12) Entonces
+		Escribir "Diciembre tiene 31 Dias"
+	FinSi
+	
+	si (num1>12) Entonces
+		Escribir "Este mes no existe"
+	FinSi
+FinAlgoritmo
